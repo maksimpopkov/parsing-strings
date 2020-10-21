@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using NUnit.Framework;
 
 #pragma warning disable CA1707
@@ -28,6 +29,21 @@ namespace ParsingStrings.Tests
             new object[] { "-79228162514264337593543950336", -2.2m },
             new object[] { "79228162514264337593543950336", -2.2m },
         };
+
+        private CultureInfo currentCulture;
+
+        [OneTimeSetUp]
+        public void SetupFixture()
+        {
+            this.currentCulture = CultureInfo.CurrentCulture;
+            CultureInfo.CurrentCulture = new CultureInfo("en-us");
+        }
+
+        [OneTimeTearDown]
+        public void TearDown()
+        {
+            CultureInfo.CurrentCulture = this.currentCulture;
+        }
 
         [TestCase(null)]
         [TestCase("")]
