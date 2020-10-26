@@ -75,7 +75,7 @@ namespace ParsingStrings
         /// Converts the string representation of a number to its Byte equivalent.
         /// </summary>
         /// <param name="str">A string that contains a number to convert.</param>
-        /// <returns>A byte value that is equivalent to the number contained in <see cref="str"/>. If a formatting error occurs returns maximum value of unsigned int. If an overflow error occurs returns minimum value of unsigned int.</returns>
+        /// <returns>A byte value that is equivalent to the number contained in <see cref="str"/>. If a formatting error occurs returns maximum value of byte. If an overflow error occurs returns minimum value of byte.</returns>
         public static byte ParseByte(string str)
         {
             // TODO #4. Implement the method using "byte.Parse" method, and add exception handling.
