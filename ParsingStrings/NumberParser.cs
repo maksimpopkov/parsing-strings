@@ -144,7 +144,7 @@ namespace ParsingStrings
         /// Converts the string representation of a number to its 16-bit unsigned integer equivalent.
         /// </summary>
         /// <param name="str">A string that represents the number to convert.</param>
-        /// <returns>A 16-bit unsigned integer equivalent to the number contained in <see cref="str"/>. If a formatting error occurs returns maximum value of unsigned short. If an overflow error occurs returns maximum value of unsigned short.</returns>
+        /// <returns>A 16-bit unsigned integer equivalent to the number contained in <see cref="str"/>. If a formatting error occurs returns zero. If an overflow error occurs returns maximum value of unsigned short.</returns>
         public static ushort ParseUnsignedShort(string str)
         {
             // TODO #10. Implement the method using "ushort.Parse" method, and add exception handling.
