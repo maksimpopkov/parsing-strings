@@ -167,7 +167,7 @@ namespace ParsingStrings
         /// Converts the string representation of a number to its 64-bit signed integer equivalent.
         /// </summary>
         /// <param name="str">A string containing a number to convert.</param>
-        /// <returns>A 64-bit signed integer equivalent to the number contained in <see cref="str"/>. If a formatting error occurs returns minimum value of unsigned long. If an overflow error occurs returns minus one.</returns>
+        /// <returns>A 64-bit signed integer equivalent to the number contained in <see cref="str"/>. If a formatting error occurs returns minimum value of long. If an overflow error occurs returns minus one.</returns>
         public static long ParseLong(string str)
         {
             // TODO #12. Implement the method using "long.Parse" method, and add exception handling.
