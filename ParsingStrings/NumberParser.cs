@@ -193,7 +193,7 @@ namespace ParsingStrings
         /// <returns>A 64-bit unsigned integer equivalent to the number contained in <see cref="str"/>.</returns>
         public static ulong ParseUnsignedLong(string str)
         {
-            // TODO #14. Implement the method using "ulong.Parse" method, and add exception handling.
+            // TODO #14. Implement the method using "ulong.Parse" method, and add exception handling if necessary.
             throw new NotImplementedException();
         }
     }
