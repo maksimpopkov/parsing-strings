@@ -121,7 +121,7 @@ namespace ParsingStrings
         /// Converts the string representation of a number to its 16-bit signed integer equivalent.
         /// </summary>
         /// <param name="str">A string containing a number to convert.</param>
-        /// <returns>A 16-bit signed integer equivalent to the number contained in <see cref="str"/>. If an overflow error occurs returns maximum value of unsigned int.</returns>
+        /// <returns>A 16-bit signed integer equivalent to the number contained in <see cref="str"/>. If an overflow error occurs returns maximum value of short.</returns>
         public static short ParseShort(string str)
         {
             // TODO #8. Implement the method using "short.Parse" method, and add exception handling.
