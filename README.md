@@ -12,7 +12,7 @@ The task is to implement twenty four methods using "TryParse" and "Parse" method
 
 ## Complete the Task
 
-1. Analyze "TryParseInteger" and "ParseInteger" methods in the [NumberParser.cs](ParsingStrings/NumberParser.cs) file.
+1. Analyze the "TryParseInteger" and "ParseInteger" methods in the [NumberParser.cs](ParsingStrings/NumberParser.cs) file.
 1. Implement 14 methods in the [NumberParser.cs](ParsingStrings/NumberParser.cs) file. See the method documentation and TODO.
 1. Implement 2 methods in the [CharParser.cs](ParsingStrings/CharParser.cs) file. See the method documentation and TODO.
 1. Implement 2 methods in the [BooleanParser.cs](ParsingStrings/BooleanParser.cs) file. See the method documentation and TODO.
@@ -29,11 +29,11 @@ If a compiler error or warning message is not clear, [review errors details](htt
 ## Save Your Work
 
 * [Rebuild your solution](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio) in Visual Studio.
-* Check out the [Error List window](https://docs.microsoft.com/en-us/visualstudio/ide/reference/error-list-window) for compiler errors and warnings. If you have any of those issues, **fix issues** and rebuild the solution again.
+* Check out the [Error List window](https://docs.microsoft.com/en-us/visualstudio/ide/reference/error-list-window) for compiler errors and warnings. If you have any of those issues, **fix the issues** and rebuild the solution again.
 * [Run all unit tests with Test Explorer](https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer) and make sure there are **no failed unit tests**. Fix your code to [make all your unit tests GREEN](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
 * Review all your changes **before** saving your work.
     * Open "Changes" view in [Team Explorer](https://docs.microsoft.com/en-us/visualstudio/ide/reference/team-explorer-reference).
-    * Click with your right mouse button on a modified file.
+    * Right click on a modified file.
     * Click on "Compare with Unmodified" menu item to open a comparison window.
 * [Stage your changes](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits#stage-your-changes) and [create a commit](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits#create-a-commit).
 * Share your changes by [pushing them to remote repository](https://docs.microsoft.com/en-us/azure/devops/repos/git/pushing).
